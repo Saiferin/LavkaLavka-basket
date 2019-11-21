@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/btn.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header__menu mt-4 ">
+                    <ul class="header__menu-main d-md-none d-lg-flex">
+                        <li class="header__menu-item mr-3">
+                            <a href="#" class="header__menu-link">
+                                Корзина
+                            </a>
+                        </li>
+                        <li class="header__menu-line mr-3"><i class="fas fa-chevron-right"></i></li>
+                        <li class="header__menu-item mr-3">
+                            <a href="#" class="header__menu-link">
+                                Оформление заказ
+                            </a>
+                        </li>
+                        <li class="header__menu-line mr-3"><i class="fas fa-chevron-right"></i></li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                Оплата
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="offer__title mt-4">
+                    Корзина
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="offer__list-line"></div>
+                <div class="offer__list-comb d-flex">
+                    <div class="offer__basket-img mr-3">
+                        <img src="img/basket-meat.png" alt="" class="img__food">
+                    </div>
+                    <div class="offer__basket-list mr-5 ">
+                        <p class="offer__basket-text">
+                            Говядина без кости
+                            от ЛавкаЛавка  <b>500 г</b>
+                        </p>
+                        <p class="offer__basket-warehouse">
+                            На складе больше нет
+                        </p>
+                    </div>
+                    <div class="offer__basket-quan">
+                        <form method='POST' action='#'>
+                            <div class="quantity mt-2">
+                                <input type='button' value='-' class='minus' field='quantity' />
+                                <input type='text' name='quantity' value='0' class='qty' />
+                                <input type='button' value='+' class='plus' field='quantity' />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="offer__basket-money d-flex">
+                        <p class="offer__basket-money-text mr-3">
+                            <b>6 600 &#8381;</b>
+                        </p>
+                    </div>
+                    <div class="offer__basket-trash">
+                        <img src="img/trashcan.png" alt="" class="trashcan">
+                    </div>
+                </div>
+                <div class="offer__list-line"></div>
+                <div class="offer__list-comb  d-flex">
+                    <div class="offer__basket-img mr-3">
+                        <img src="img/basket-cheese.png" alt="" class="img__food">
+                    </div>
+                    <div class="offer__basket-list mr-5">
+                        <p class="offer__basket-text mtt">
+                            БЗМЖ Сыр Buche de Chevre 42,9% от ЛавкаЛавка, <b>0.25 кг</b>
+                        </p>
+                        <p class="offer__basket-warehouse">
+                            На складе 1 шт.
+                        </p>
+                    </div>
+                    <div class="offer__basket-quan">
+                        <form method='POST' action='#'>
+                            <div class="quantity mt-2">
+                                <input type='button' value='-' class='minus' field='quantity' />
+                                <input type='text' name='quantity' value='0' class='qty' />
+                                <input type='button' value='+' class='plus' field='quantity' />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="offer__basket-money d-flex">
+                        <p class="offer__basket-money-text mr-3">
+                            <b>2 500 &#8381;</b>
+                        </p>
+                    </div>
+                    <div class="offer__basket-trash">
+                        <img src="img/trashcan.png" alt="" class="trashcan">
+                    </div>
+                </div>
+                <div class="offer__list-line"></div>
+                <div class="offer__list-comb  d-flex">
+                      <div class="offer__basket-img mr-3">
+                          <img src="img/basket-caviar.png" alt="" class="img__food">
+                      </div>
+                      <div class="offer__basket-list mr-5">
+                          <p class="offer__basket-text mtt">
+                              Икра кеты зернистая среднесоленая от Максима Курбатова, <b>125 г </b>
+                          </p>
+                          <p class="offer__basket-warehouse">
+                              На складе 6 шт.
+                          </p>
+                      </div>
+                      <div class="offer__basket-quan">
+                          <form method='POST' action='#'>
+                              <div class="quantity mt-2">
+                                  <input type='button' value='-' class='minus' field='quantity' />
+                                  <input type='text' name='quantity' value='0' class='qty' />
+                                  <input type='button' value='+' class='plus' field='quantity' />
+                              </div>
+                          </form>
+                      </div>
+                      <div class="offer__basket-money  mr-3">
+                          <p class="offer__basket-money-text">
+                              <b> 890  &#8381;</b>
+                          </p>
+                      </div>
+                      <div class="offer__basket-trash">
+                          <img src="img/trashcan.png" alt="" class="trashcan">
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-12">
+                <div class="offer__order-border ml-auto">
+                    <p class="offer__border-title ml-3 mt-3">Промокод</p>
+                    <div class="offer__border-form">
+                        <div class="input-group mb-4">
+                            <input type="text" class="form-control" placeholder="Имя получателя" aria-label="Введите промокод" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon">Применить</span>
+                            </div>
+                        </div>
+                        <div class="offer__border-list d-flex">
+                            <p class="offer__border-list-item">
+                                Количество товара
+                            </p>
+                            <p class="offer__border-list-item1">
+                                13
+                            </p>
+                        </div>
+                        <div class="offer__border-list d-flex">
+                            <p class="offer__border-list-item">
+                                Общий вес
+                            </p>
+                            <p class="offer__border-list-item2">
+                                5.62
+                            </p>
+                            <p class="offer__border-list-item ml-2">
+                                кг
+                            </p>
+                            <img src="img/weight-info.png" alt="" class="border__img ml-2">
+                        </div>
+                        <div class="offer__basket-line"></div>
+                        <div class="offer__border-list d-flex mt-4">
+                            <p class="offer__border-list-item font-weight-bold">
+                                Итого
+                            </p>
+                            <p class="offer__border-moneys font-weight-bold">
+                                9 990  &#8381;
+                            </p>
+                        </div>
+                        <div class="offer__border-button">
+                            <p class="offer__border-button-text text-white text-center p-2">
+                                Оформить заказ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+            <!-- <div class="col-lg-2 col-md-2 col-1">
+
+                 <div class="offer__basket-img">
+                     <img src="img/basket-meat.png" alt="" class="img__food">
+                 </div>
+
+                 <div class="offer__basket-img mtt">
+                     <img src="img/basket-cheese.png" alt="" class="img__food">
+                 </div>
+
+                 <div class="offer__basket-img mtt">
+                     <img src="img/basket-caviar.png" alt="" class="img__food">
+                 </div>
+
+             </div>
+             <div class="col-lg-3 col-md-3 col-2 mll">
+                 <div class="offer__basket-list">
+                     <p class="offer__basket-text">
+                         Говядина без кости
+                         от ЛавкаЛавка  <b>500 г</b>
+                     </p>
+                     <p class="offer__basket-warehouse">
+                         На складе больше нет
+                     </p>
+                 </div>
+                 <div class="offer__basket-list">
+                     <p class="offer__basket-text mtt">
+                         БЗМЖ Сыр Buche de Chevre 42,9% от ЛавкаЛавка, <b>0.25 кг</b>
+                     </p>
+                     <p class="offer__basket-warehouse">
+                         На складе 1 шт.
+                     </p>
+                 </div>
+                 <div class="offer__basket-list">
+                     <p class="offer__basket-text mtt">
+                         Икра кеты зернистая среднесоленая от Максима Курбатова, <b>125 г </b>
+                     </p>
+                     <p class="offer__basket-warehouse">
+                         На складе 6 шт.
+                     </p>
+                 </div>
+             </div>
+             <div class="col-lg-2">
+                 <div class="offer__basket-quan">
+                     <form method='POST' action='#'>
+                         <div class="quantity mt-2">
+                             <input type='button' value='-' class='minus' field='quantity' />
+                             <input type='text' name='quantity' value='0' class='qty' />
+                             <input type='button' value='+' class='plus' field='quantity' />
+                         </div>
+                     </form>
+                 </div>
+                 <div class="offer__basket-quan-1 ">
+                     <form method='POST' action='#'>
+                         <div class="quantity mt-2">
+                             <input type='button' value='-' class='minus' field='quantity' />
+                             <input type='text' name='quantity' value='0' class='qty' />
+                             <input type='button' value='+' class='plus' field='quantity' />
+                         </div>
+                     </form>
+                 </div>
+                 <div class="offer__basket-quan-2">
+                     <form method='POST' action='#'>
+                         <div class="quantity mt-2">
+                             <input type='button' value='-' class='minus' field='quantity' />
+                             <input type='text' name='quantity' value='0' class='qty' />
+                             <input type='button' value='+' class='plus' field='quantity' />
+                         </div>
+                     </form>
+                 </div>
+             </div>
+             <div class="col-lg-2 col-md-2 col-4 mtt1">
+                 <div class="offer__basket-money d-flex">
+                     <p class="offer__basket-money-text">
+                         <b>6 600 &#8381;</b>
+                     </p>
+                     <img src="img/trashcan.png" alt="" class="trashcan trashcan-1 ml-auto">
+                 </div>
+                 <div class="offer__basket-money-1 d-flex">
+                     <p class="offer__basket-money-text mtt2">
+                         <b>2 500  &#8381;</b>
+                     </p>
+                     <img src="img/trashcan.png" alt="" class="trashcan trashcan-2 ml-auto">
+                 </div>
+                 <div class="offer__basket-money-2 d-flex">
+                     <p class="offer__basket-money-text mtt3">
+                         <b> 890  &#8381;</b>
+                     </p>
+                     <img src="img/trashcan.png" alt="" class="trashcan trashcan-3 ml-auto">
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-12 col-12">
+                 <div class="offer__order-border ml-auto">
+                     <p class="offer__border-title ml-3 mt-3">Промокод</p>
+                     <div class="offer__border-form">
+                         <div class="input-group mb-4">
+                             <input type="text" class="form-control" placeholder="Имя получателя" aria-label="Введите промокод" aria-describedby="basic-addon2">
+                             <div class="input-group-append">
+                                 <span class="input-group-text" id="basic-addon">Применить</span>
+                             </div>
+                         </div>
+                         <div class="offer__border-list d-flex">
+                             <p class="offer__border-list-item">
+                                 Количество товара
+                             </p>
+                             <p class="offer__border-list-item1">
+                                 13
+                             </p>
+                         </div>
+                         <div class="offer__border-list d-flex">
+                             <p class="offer__border-list-item">
+                                 Общий вес
+                             </p>
+                             <p class="offer__border-list-item2">
+                                 5.62
+                             </p>
+                             <p class="offer__border-list-item ml-2">
+                                 кг
+                             </p>
+                             <img src="img/weight-info.png" alt="" class="border__img ml-2">
+                         </div>
+                         <div class="offer__basket-line"></div>
+                         <div class="offer__border-list d-flex mt-4">
+                             <p class="offer__border-list-item font-weight-bold">
+                                 Итого
+                             </p>
+                             <p class="offer__border-moneys font-weight-bold">
+                                 9 990  &#8381;
+                             </p>
+                         </div>
+                         <div class="offer__border-button">
+                             <p class="offer__border-button-text text-white text-center p-2">
+                                 Оформить заказ
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="offer__main-button text-white text-center p-1 mt-5">
+                    Доставка этого товара 11 и 12 ноября недоступна
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer__title mt-4">
+                    <p class="footer__title-text">
+                        Вас заинтересует
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="owl-carousel slider-1">
+                    <div class="col-lg-3 ">
+                        <div class="offer__item-list">
+                            <img src="img/Pic11.png" alt="" class="offer__img">
+                            <p class="offer__item-text   mt-4">
+                                Икра осетровая "Selected"
+                                от Николая Сенина <b>10 г</b>
+                            </p>
+                            <div class="offer__item-buy d-flex mt-4">
+                                <p class="offer__item-money mr-1">
+                                    179
+                                </p>
+                                <span class="offer__item-valuta">
+                                      &#8381;
+                                  </span>
+                                <div class="offer__basket d-flex ml-auto">
+                                    <i class="fas fa-shopping-cart ml-3 mr-3"></i>
+                                    <p class="header__basket-text">
+                                        Корзина
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="offer__item-list">
+                            <img src="img/Pic%20(1).png" alt="" class="offer__img">
+                            <p class="offer__item-text   mt-4">
+                                Красный грейпфрут от ЛавкаЛавка
+                                <b>0.5 кг</b>
+                            </p>
+                            <div class="offer__item-buy d-flex mt-4">
+                                <p class="offer__item-money mr-1">
+                                    175
+                                </p>
+                                <span class="offer__item-valuta">
+                                      &#8381;
+                                  </span>
+                                <div class="offer__basket d-flex ml-auto">
+                                    <i class="fas fa-shopping-cart ml-3 mr-3"></i>
+
+                                    <p class="header__basket-text">
+                                        Корзина
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="offer__item-list ">
+                            <img src="img/Pic%20(2).png" alt="" class="offer__img">
+                            <p class="offer__item-text   mt-4">
+                                БЗМЖ Сыр Buche de Chevre 42,9%
+                                от ЛавкаЛавка, <b>0.25 кг</b>
+                            </p>
+                            <div class="offer__item-buy d-flex mt-4">
+                                <p class="offer__item-money mr-1">
+                                    1 125
+                                </p>
+                                <span class="offer__item-valuta">
+                                      &#8381;
+                                  </span>
+                                <div class="offer__basket d-flex ml-auto">
+                                    <i class="fas fa-shopping-cart ml-3 mr-3"></i>
+                                    <p class="header__basket-text">
+                                        Корзина
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+
+                        <div class="offer__item-list">
+                            <img src="img/Pic%20(3).png" alt="" class="offer__img">
+                            <p class="offer__item-text   mt-4">
+                                Яйцо куриное от Евгения Рошаля
+                                <b>10 шт.</b>
+                            </p>
+                            <div class="offer__item-buy d-flex mt-4">
+                                <p class="offer__item-money mr-1">
+                                    179
+                                </p>
+                                <span class="offer__item-valuta">
+                                      &#8381;
+                                  </span>
+                                <div class="offer__basket  d-flex ml-auto">
+                                    <i class="fas fa-shopping-cart ml-3 mr-3"></i>
+                                    <p class="header__basket-text">
+                                        Корзина
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js" ></script>
+<script src="js/main.js"></script>
+<script src="js/carusel.js"></script>
+</body>
+</html>

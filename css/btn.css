@@ -1,0 +1,19 @@
+/*Кнопка оформить заказ промокод*/
+.offer__border-button {
+    background: #A21D21;
+    border-radius: 4px;
+    width: 280px;
+    height: 42px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .offer__border-button {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+
+}

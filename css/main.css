@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+
+/*Спецификации*/
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    color: #1D1A1A;
+    font-weight: 300;
+    margin: 0;
+}
+
+b{
+    font-weight: bold;
+}
+
+div, p, form, input, a, span, button {
+    box-sizing: border-box;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a, button, input {
+    transition: all 0.5s ease;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.header__menu-main a{
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 2px;
+}
+
+.fas{
+    color: #AAAAAA;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.bb{
+    color: #AAAAAA;
+}
+
+.offer__basket-line{
+
+    border-top: 2px solid #E5E5E5;
+    width: 272px;
+
+    margin-left: 19px;
+
+}
+.offer__title{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.offer__basket-quan{
+    margin-top: 44px;
+}
+
+.offer__basket-quan-1{
+     margin-top: 78px;
+}
+
+.offer__basket-quan-2{
+    margin-top: 78px;
+}
+
+.offer__basket-img{
+    margin-top: 30px;
+}
+
+.offer__basket-list{
+    margin-top: 30px;
+}
+
+.trashcan{
+    height: 20px;
+}
+
+.offer__basket-money{
+    margin-top: 52px;
+    margin-left: 70px;
+}
+
+.offer__basket-money-1{
+    margin-top: 78px;
+}
+
+.offer__basket-money-2{
+    margin-top: 79px;
+}
+
+.offer__basket-warehouse{
+    font-size: 13px;
+    color: #AAAAAA;
+    margin: 0;
+}
+
+.quantity input {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding 0;
+    margin: 0;
+    text-align:center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-right: 1px solid #ccc;
+}
+
+.quantity input:first-child {
+    background: #E5E5E5;
+    border-radius: 6px 0px 0px 6px;
+    margin-right: -5px;
+}
+
+.quantity input:last-child {
+    background: #E5E5E5;
+    border-right: 1px solid #ccc;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -6px;
+}
+
+input[type="button"] {
+    cursor: pointer
+}
+
+
+.offer__order-border{
+    height: 325px;
+    width: 320px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+}
+
+.offer__border-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.input__border{
+    border: 2px solid #E5E5E5;
+    border-radius: 6px;
+}
+.input-group{
+    width: 279px;
+    height: 34px;
+    margin-left: 17px;
+    color: #AAAAAA;
+    font-size: 14px;
+
+
+    margin-bottom: 32px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+.input-group-text{
+    background: #E5E5E5;
+    font-size: 14px;
+}
+
+.offer__border-list-item{
+    margin-left: 18px;
+}
+
+.offer__border-list-item1{
+    margin-left: 124px;
+}
+
+.offer__border-list-item2{
+    margin-left: 119px;
+}
+
+.border__img{
+    height: 16px;
+    margin-top: 5px;
+}
+
+.offer__border-moneys{
+    margin-left: 178px;
+}
+
+
+
+
+
+.offer__main-button{
+    background: #A21D21;
+    border-radius: 6px;
+    width: 416px;
+    height: 38px;
+}
+
+.offer__item-text{
+    width: 264px;
+
+}
+
+.offer__title-text{
+    color: #A21D21;
+    font-size: 34px;
+}
+
+.offer__basket{
+    height: 28px;
+    width: 131px;
+    background: #E5E5E5;
+    border-radius: 4px;
+
+}
+
+.offer__list-line{
+    border-top: 1px solid #E5E5E5;
+    margin-top: 12px;
+}
+
+.offer__basket-trash{
+    margin-top: 50px;
+}
+.basket-offer{
+    height: 16px;
+    margin-top: 7px;
+}
+
+.offer__item-money{
+    font-weight: bold;
+}
+
+.offer__item-valuta{
+    font-weight: bold;
+}
+
+.offer__img{
+    width: 265px;
+}
+.offer__item-list{
+    width: 265px;
+}
+
+.fas{
+    margin-top: 6px;
+    color: #555555;
+}
+
+.offer__basket-list {
+    width: 239px;
+}
+
+/*arrow*/
+
+.footer__title-text{
+    color: #A21D21;
+    font-size: 34px;
+}
+@media screen and (max-width: 1024px) {
+    .header__img{
+        text-align: center;
+    }
+
+    .offer__order-border {
+
+        display: none;
+    }
+    .offer__basket-list {
+        width: 204px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__img{
+        text-align: center;
+    }
+
+    .mll{
+        margin-left: 29px;
+    }
+
+    .col-lg-2{
+        width: 160px;
+    }
+
+    .offer__main-button {
+        width: 100%;
+    }
+
+    .offer__order-border {
+        width: 100%;
+        border: none;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .offer__border-list-item {
+        margin-left: 11px;
+    }
+
+    .offer__basket-line {
+        width: 100%;
+        margin-left: 6px;
+    }
+
+
+
+    .offer__border-list-item1 {
+        margin-left: auto;
+    }
+
+    .offer__border-list-item2 {
+        margin-left: auto;
+    }
+
+    .offer__border-moneys {
+        margin-left: auto;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    .header__img{
+        text-align: center;
+    }
+    .header__menu{
+        display: none;
+    }
+
+    .offer__order-border {
+
+        display: none;
+    }
+    .offer__basket-list {
+        width: 204px;
+        margin-right: 1px !important;
+    }
+    .quantity input {
+
+        width: 31px;
+        height: 31px;
+
+    }
+    .offer__basket-money {
+        margin-top: 52px;
+        margin-left: -47px;
+    }
+
+
+    .offer__basket-quan {
+        margin-top: 77px;
+    }
+
+}
+
+@media screen and (max-width: 736px){
+    .offer__basket-money {
+        margin-top: 52px;
+        margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .offer__basket-money {
+        margin-top: 52px;
+        margin-left: -90px;
+    }
+
+    .offer__basket-trash {
+        margin-top: 30px;
+    }
+
+    .offer__basket-list {
+        width: 189px;
+        margin-right: 1px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .offer__basket-list {
+        width: 114px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__menu-main {
+        display: none;
+    }
+    .offer__list-comb{
+        flex-direction: column;
+    }
+    .img__food{
+        width: 100%;
+    }
+
+    .offer__basket-list {
+        width: 142px;
+    }
+    .offer__basket-quan {
+        margin-top: -90px;
+        margin-left: 167px;
+    }
+    .offer__basket-money {
+        margin-left: 162px;
+    }
+
+    .offer__basket-trash {
+        margin-top: -40px;
+        margin-left: 236px;
+    }
+    .offer__basket-warehouse{
+        display: none;
+    }
+}
