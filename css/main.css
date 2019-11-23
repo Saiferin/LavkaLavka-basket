@@ -394,6 +394,41 @@ input[type="button"] {
         width: 114px;
     }
 }
+@media screen and (max-width: 360px) {
+    .header__menu-main {
+        display: none;
+    }
+    .offer__list-comb{
+        flex-direction: column;
+    }
+    .img__food{
+        width: 100%;
+    }
+
+    .offer__basket-list {
+        width: 131px;
+    }
+    .offer__basket-quan {
+        margin-top: -95px;
+        margin-left: 219px;
+    }
+    .offer__basket-money {
+            margin-top: 18px;
+
+        margin-left: 216px;
+    }
+
+    .offer__basket-trash {
+        margin-top: -40px;
+        margin-left: 295px;
+    }
+    .offer__basket-warehouse{
+        display: none;
+    }
+    .owl-item .acive{
+        margin-right: 250px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .header__menu-main {
