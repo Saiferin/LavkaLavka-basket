@@ -2,9 +2,14 @@ $(document).ready(function(){
     var owl1 = $('.slider-1').owlCarousel({
         loop:false,
         items:4,
+        margin:250,
         responsive:{
             320:{
                 items:1
+            },
+            360:{
+                items:2
+                
             },
             768:{
                 items:2
@@ -27,9 +32,14 @@ $(document).ready(function(){
     var owl2 = $('.slider-2').owlCarousel({
         loop:true,
         items:4,
+        margin:250,
         responsive:{
             320:{
                 items:1
+            },
+             360:{
+                items:2
+                
             },
             768:{
                 items:2
